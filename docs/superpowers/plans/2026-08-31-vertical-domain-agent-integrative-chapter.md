@@ -80,5 +80,7 @@
 - [x] **Step 2:** Verify every local Markdown link in the five changed content files resolves.
 - [x] **Step 3:** Verify UTF-8 decoding, balanced code fences, Chapter 20 references, and the absence of claims that Vertical Domain Agent is the sole Runtime purpose or a completed implementation.
 - [x] **Step 4:** Review `git diff --stat` and `git diff` for scope drift.
-- [ ] **Step 5:** Commit with `docs: add vertical domain agent integration chapter`.
-- [ ] **Step 6:** Push `main` to `origin` and verify the remote commit equals local HEAD.
+- [x] **Step 5:** Commit with `docs: add vertical domain agent integration chapter`.
+- [x] **Step 6:** Push `main` to `origin` and verify the remote commit equals local HEAD.
+
+**Execution evidence:** Content commit `34cb7612089fa37858cf4cbc9869ecf8b0f5fdff` was pushed to `origin/main` and the remote reference was verified to match.

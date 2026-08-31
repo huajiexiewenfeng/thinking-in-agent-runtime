@@ -16,6 +16,8 @@
 
 > 建立一套能够解释、设计、实现和验证 Agent Runtime 的统一框架，并通过真实 Runtime 项目持续修正它。
 
+这套统一框架还需要一个跨能力域的综合验证目标。当前提出的目标之一是：当 Domain Skill、Domain Harness 与 Loop、State、Knowledge、Tool、Policy、Trace、Eval 等 Runtime 能力形成受治理闭环时，一个具体 Domain workload 是否能够逐步成为持久、可恢复、可评测的 Vertical Domain Agent。它是全书需要长期验证的下游架构假设，不是 Agent Runtime 的唯一目的，也不是当前项目已经完成的事实。
+
 这套体系不以“覆盖更多名词”为目标，而以形成以下闭环为目标：
 
 ```mermaid
@@ -59,6 +61,7 @@ flowchart LR
 | 17 | Trace Runtime 实践：让 Agent Run 可以解释和重放 | 预留研究章 |
 | 18 | Eval Runtime 实践：从 Bad Case 到持续评测 | 预留研究章 |
 | 19 | 集成实践：从多个 Runtime 到 Agent Infra | 预留研究章 |
+| 20 | [从 Domain Workload 走向 Vertical Domain Agent](articles/20-domain-workloads-to-vertical-agents.md) | 研究骨架，综合验证目标 |
 
 ## 理论与实践如何互相印证
 
@@ -71,6 +74,7 @@ flowchart LR
 | 17 Trace Runtime 实践 | 06、07、08、09、10、11 |
 | 18 Eval Runtime 实践 | 06、11、12 |
 | 19 集成实践 | 01、04、05、06 以及全部领域章节 |
+| 20 Vertical Domain Agent 综合章 | 04—12 的能力框架，以及 13—19 的实践证据 |
 
 实践章节不只是介绍代码。它必须回答：
 

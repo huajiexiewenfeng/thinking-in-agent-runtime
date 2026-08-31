@@ -146,6 +146,14 @@ Eval Runtime 回答：怎样判断 Agent 真的变好，以及问题究竟属于
 
 它关心 Eval Case、Dataset、Rule Judge、Human Judge、LLM Judge、Golden Trace、Regression、Bad Case 和 Continuous Evaluation。
 
+## 一个下游综合验证目标：Vertical Domain Agent
+
+七个能力域不能只作为彼此分离的模块清单。它们还需要在真实 Domain 中回答一个综合问题：当 Skill 表达领域语义、Harness 承载具体 workload，而 Runtime 提供 Loop、State、Knowledge、Tool、Policy、Trace 与 Eval 能力时，这些责任能否共同形成一个持久、受治理、可恢复、可评测的 Domain 运行主体？
+
+本系列把 **Vertical Domain Agent** 作为检验这条组合路径的一个长期目标。它不是 Agent Runtime 的唯一用途，也不代表当前实践已经完成了完整 Agent；它要求后续章节逐项证明 Identity、Capability Binding、Knowledge continuity、Evidence、Recovery 与 Eval-backed evolution 能否归属于同一个 Domain subject。
+
+这条综合假设将在第 20 篇[从 Domain Workload 走向 Vertical Domain Agent](20-domain-workloads-to-vertical-agents.md)中展开。
+
 ## 为什么需要 Thinking Framework
 
 仅仅列出七个 Runtime 仍然不够。技术生态会不断出现新的名词、协议和产品，如果没有稳定的分析方法，知识体系会重新退化成功能清单。
@@ -214,7 +222,7 @@ Eval Runtime 回答：怎样判断 Agent 真的变好，以及问题究竟属于
 
 ## 这套系列最终希望得到什么
 
-它最终不只是 19 篇文章，而应沉淀为四类长期资产：
+它最终不只是 20 篇文章，而应沉淀为四类长期资产：
 
 1. **统一术语**：让 Model、Skill、Runtime、MCP、Tool、Knowledge、State、Trace、Eval 不再混用。
 2. **参考架构**：能够描述完整 Agent Runtime，也能容纳不同实现。
@@ -236,6 +244,7 @@ Eval Runtime 回答：怎样判断 Agent 真的变好，以及问题究竟属于
 → 能力框架
 → 各领域理论
 → 各领域实践
+→ Vertical Domain Agent 综合验证
 ```
 
 如果正在解决具体工程问题，可以从能力域直接进入：
